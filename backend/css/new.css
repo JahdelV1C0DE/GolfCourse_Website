@@ -1,0 +1,125 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+div {
+    text-align: center;
+}
+
+#theform {
+    display: inline-block;
+}
+
+#theresults {
+    display: inline-block;
+}
+
+#theleft {
+    float: left;
+    padding-right: 20px;
+}
+
+#theright {
+    float: right;
+}
+
+body {
+    background-color: #0a0a23; /* Darker shade for the body to complement the theme */
+    color: #e6e6e6; /* Lighter text color for general readability */
+    font-family: Arial, sans-serif; /* Optional: Improve text readability */
+}
+
+.UserBox {
+    background-color: #1e1e40; /* Dark blue background for contrast */
+    border: 2px solid #5a5a9a; /* Subtle border color */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds depth */
+}
+
+.UserBox h1, .UserForm h2 {
+    color: #ccccff; /* Lighter blue for headings */
+}
+
+.UserForm {
+    background-color: #2a2a55; /* Slightly lighter blue than UserBox for differentiation */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
+}
+
+.UserForm table {
+    margin: 10px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.UserForm th, .UserForm td {
+    text-align: left;
+    padding: 8px;
+    color: #e6e6e6; /* Ensures readability */
+}
+
+.input, input[type="submit"] {
+    border: 1px solid #5a5a9a; /* Border color to match the theme */
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    width: calc(100% - 16px); /* Input field width adjustment */
+    background-color: #141434; /* Dark background for input fields */
+    color: #e6e6e6; /* Text color for inputs */
+}
+
+input[type="submit"] {
+    background-color: #4b4b9f; /* Subtle purple */
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #373786; /* Darker shade for hover */
+}
+
+.error_container {
+    color: #ff3860;
+    margin: 5px 0;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+table, th, td {
+    border: 1px solid #33334d; /* Dark border color for tables */
+}
+
+div {
+    text-align: center;
+}
+
+/* Style for normal and visited links */
+a, a:visited {
+    color: #a7a7d9; /* Light blue/purple for contrast against dark background */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Style for links when hovered over */
+a:hover {
+    color: #8c8cb8; /* Slightly darker shade for hover */
+    text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+
+/* Style for links when they are being clicked */
+a:active {
+    color: #7070a0; /* Even darker shade for an active click effect */
+}
+
+.small-button {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+}

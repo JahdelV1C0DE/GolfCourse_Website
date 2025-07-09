@@ -1,0 +1,159 @@
+body {
+    background-color: #0a0a23; /* Darker shade for the body to complement the theme */
+    color: #e6e6e6; /* Lighter text color for general readability */
+    font-family: Arial, sans-serif; /* Optional: Improve text readability */
+}
+
+.PlayerBox {
+    background-color: #1e1e40; /* Dark blue background for contrast */
+    border: 2px solid #5a5a9a; /* Subtle border color */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds depth */
+}
+
+.PlayerBox h1, .PlayerForm h2 {
+    color: #ccccff; /* Lighter blue for headings */
+}
+
+.PlayerForm {
+    background-color: #2a2a55; /* Slightly lighter blue than PlayerBox for differentiation */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
+}
+
+.PlayerForm table {
+    margin: 10px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.PlayerForm th, .PlayerForm td {
+    text-align: left;
+    padding: 8px;
+    color: #e6e6e6; /* Ensures readability */
+}
+
+.input, input[type="submit"] {
+    border: 1px solid #5a5a9a; /* Border color to match the theme */
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    width: calc(100% - 16px); /* Input field width adjustment */
+    background-color: #141434; /* Dark background for input fields */
+    color: #e6e6e6; /* Text color for inputs */
+}
+
+input[type="submit"] {
+    background-color: #4b4b9f; /* Subtle purple */
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #373786; /* Darker shade for hover */
+}
+
+.error_container {
+    color: #ff3860;
+    margin: 5px 0;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+table, th, td {
+    border: 1px solid #33334d; /* Dark border color for tables */
+}
+
+div {
+    text-align: center;
+}
+
+/* Style for normal and visited links */
+a, a:visited {
+    color: #a7a7d9; /* Light blue/purple for contrast against dark background */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Style for links when hovered over */
+a:hover {
+    color: #8c8cb8; /* Slightly darker shade for hover */
+    text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+
+/* Style for links when they are being clicked */
+a:active {
+    color: #7070a0; /* Even darker shade for an active click effect */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center; /* This centers the child elements (li) horizontally */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar li {
+    display: inline; /* Display links inline */
+}
+
+.navbar li a {
+    display: inline-block;
+    color: #ccc; /* Light text color for contrast */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#content {
+    padding-top: 60px; /* Adjust based on the actual height of your navbar */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px; /* Adjust spacing between nav items as needed */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white; /* Adjust color as needed */
+}
+
+.dropdown {
+    display: none; /* Initially hide the dropdown */
+}
+
+.nav-links li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+    position: absolute;
+    background-color: #f9f9f9; /* Adjust dropdown background as needed */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li {
+    text-align: center;
+}
+
+.dropdown li a {
+    color: black; /* Adjust dropdown links color as needed */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}

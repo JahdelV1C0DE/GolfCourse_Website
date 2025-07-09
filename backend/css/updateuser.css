@@ -1,0 +1,41 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+div {
+    text-align: center;
+}
+
+#theform {
+    display: inline-block;
+}
+
+#theresults {
+    display: inline-block;
+}
+
+#theleft {
+    float: left;
+    padding-right: 20px;
+}
+
+#theright {
+    float: right;
+}
+
+/* Style for normal and visited links */
+a, a:visited {
+    color: #a7a7d9; /* Light blue/purple for contrast against dark background */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Style for links when hovered over */
+a:hover {
+    color: #8c8cb8; /* Slightly darker shade for hover */
+    text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+
+/* Style for links when they are being clicked */
+a:active {
+    color: #7070a0; /* Even darker shade for an active click effect */
+}
